@@ -1,0 +1,32 @@
+# Ignore Python virtual environment
+venv/
+env/
+.venv/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Ignore generated reports
+*.json
+*.html
+!README.md
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore distribution files
+build/
+dist/
+*.egg-info/
